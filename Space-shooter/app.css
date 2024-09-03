@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+
+  background-image: url("./Images/Space.jpg");
+  background-size: cover;
+}
+
+.Rocket {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 0;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.chicken {
+  width: 100px;
+}
+
+.Bullet {
+  width: 50px;
+  animation: moveUp 3s ease forwards;
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(100px);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-1000px);
+    opacity: 1;
+  }
+}
