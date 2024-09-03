@@ -41,4 +41,5 @@ Shoot: Spacebar
 
 ### Screenshots
 
-![screenshot]('public/space.png')
+![screenshot](public/space.png)
+![screenshot](public/shooting.png)
