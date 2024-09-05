@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.logo img,
+footer img {
+  width: 50px;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  padding: 14px 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s, font-size 0.5s;
+}
+
+a:hover {
+  color: rgb(99, 8, 126);
+  font-size: larger;
+}
+
+a:active {
+  color: rgb(54, 165, 20);
+}
+
+.group {
+  width: 95%;
+  min-height: 100vh;
+  padding: 150px 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.imgs {
+  display: flex;
+  align-items: center;
+}
+
+.imgList,
+.mainImg img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainImg img {
+  max-height: 500px;
+  border-radius: 15px;
+}
+
+.imgli {
+  cursor: pointer;
+  display: block;
+  margin: 8px;
+  width: 80px;
+  border-radius: 15px;
+  padding: 3px;
+  opacity: 0.5;
+  transition: width 0.6s, opacity 0.6s;
+}
+
+.active {
+  width: 90px;
+  opacity: 1;
+}
+
+.imgli:hover {
+  width: 90px;
+  opacity: 1;
+}
+
+.details h1 {
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.details p {
+  font-size: 18px;
+  padding: 10px;
+}
+
+p button {
+  background-color: #c2fbd7;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0 1px rgba(25, 25, 25, 0.04), 0 3px 4px rgba(0, 0, 0, 0.1);
+  color: #008000;
+  cursor: pointer;
+  height: 50px;
+  padding: 0 25px;
+  transition: all 200ms;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+}
+
+.footer-about,
+.footer-contact,
+.footer-working {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-working ul {
+  list-style: none;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.br {
+  background-color: aliceblue;
+  height: 2px;
+  margin: 15px;
+}
+
+.copyrights {
+  text-align: center;
+}
