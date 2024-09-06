@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="navbar">
+    <nav>
       <div class="logo">
-        <a href="index.html">
-          <img src="./images/logo.jpg" alt="logo" />
-        </a>
+        <img src="images/logo.jpg" alt="Logo Image" />
       </div>
-      <nav class="nav-links">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./index.html">Sketches</a></li>
-          <li><a href="./index.html">Decorative Pieces</a></li>
-          <li><a href="./index.html">Workshops</a></li>
-          <li><a href="./index.html">About Us</a></li>
-        </ul>
-      </nav>
-    </header>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
 
     <main class="group">
       <section class="imgs">
@@ -44,53 +45,40 @@
         </p>
       </section>
     </main>
-
     <footer>
-      <section class="footer">
-        <div class="footer-about">
-          <img class="footer-logo" src="./images/logo.jpg" loading="lazy" />
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <img src="images/logo.jpg" alt="About Us" width="50" />
           <p>
-            Family is like branches on a tree, we grow in different directions
-            yet our roots remain as one. Our artistic family decided to publish
-            our art, fill your walls with art, and spread happiness.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            pharetra.
           </p>
         </div>
-        <div class="footer-contact">
-          <h3>Contact Info</h3>
-          <div class="social">
-            <a href="https://www.facebook.com/Treeartvision" target="_blank">
-              <div class="social-circle">
-                <img src="images/facebook.webp" alt="Facebook" loading="lazy" />
-              </div>
-            </a>
-            <a href="https://www.instagram.com/tree_artvision" target="_blank">
-              <div class="social-circle">
-                <img
-                  src="images/instagram.webp"
-                  alt="Instagram"
-                  loading="lazy"
-                />
-              </div>
-            </a>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+
+          <p>Email: example@example.com</p>
+          <p>Phone: +1234567890</p>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-media">
+            <img src="images/instagram.webp" alt="Follow Us" width="50" />
+            <img src="images/facebook.webp" alt="Follow Us" width="50" />
+          </div>
+          <div class="social-media">
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
           </div>
         </div>
-        <div class="footer-working">
-          <h3>Main Links</h3>
-          <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="gallery.php">Sketches</a></li>
-            <li><a href="artworks.php">Decorative Pieces</a></li>
-            <li><a href="workshops.php">Workshops</a></li>
-            <li><a href="about.php">About</a></li>
-          </ul>
-        </div>
-      </section>
-      <div class="br"></div>
-      <div class="copyrights">
-        <p>Copyright ©2022 All rights reserved to Tree Art Vision.</p>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2024 Your Website. All Rights Reserved.
       </div>
     </footer>
 
     <script src="./app.js"></script>
+    <script src="./nav.js"></script>
   </body>
 </html>
